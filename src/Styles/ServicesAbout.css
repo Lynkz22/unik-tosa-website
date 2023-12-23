@@ -1,0 +1,77 @@
+.sectionServicesAbout {
+  width: 90%;
+  margin: auto;
+}
+
+.divServicesAbout {
+  width: 100%;
+  text-align: start;
+}
+
+.divServicesAbout h1 {
+  font-size: 1.7rem;
+  color: #180e7f;
+  margin-bottom: 0.5rem;
+}
+
+.divServicesAboutFlex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.divServicesAboutText {
+  width: 90%;
+  text-align: start;
+  border-right: 2px solid #180e7f;
+}
+
+.divServicesAboutText-1 {
+  width: 90%;
+  text-align: start;
+  padding-left: 3rem;
+  border-left: 2px solid #180e7f;
+}
+
+.divServicesAboutHeading {
+  font-size: 1.3rem;
+}
+
+.divServicesAboutTextContent {
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+  .sectionServicesAbout {
+    width: 97%;
+    margin: auto;
+  }
+
+  .divServicesAboutText {
+    width: 98%;
+    border-right: 1px solid #180e7f;
+  }
+
+  .divServicesAboutText-1 {
+    width: 98%;
+    padding-left: 0.5rem;
+    border-left: 1px solid #180e7f;
+  }
+
+  .divServicesAbout h1 {
+    font-size: 1.2rem;
+    color: #180e7f;
+    margin-bottom: 0.5rem;
+  }
+
+  .divServicesAboutHeading {
+    font-size: 1rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .divServicesAboutTextContent {
+    font-size: 0.9rem;
+  }
+}

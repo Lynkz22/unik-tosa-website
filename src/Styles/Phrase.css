@@ -1,0 +1,76 @@
+.sectionPhrase {
+  margin-top: 5rem;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+}
+
+.divPhrase {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.divPhrase span {
+  font-size: 4rem;
+  color: #fd0203;
+}
+
+/* .divPhrase p {
+    font-size: 1.1rem;
+} */
+
+.textPhrase-1 {
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+}
+
+.textPhrase-2 {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+.textPhrase-3 {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.textPhrase-4 {
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  color: #180e7f;
+}
+
+@media screen and (max-width: 900px) {
+  .sectionPhrase {
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+  }
+
+  .divPhrase {
+    gap: .5rem;
+  }
+
+  .divPhrase span {
+    font-size: 2rem;
+  }
+
+  .textPhrase-1 {
+    font-size: 0.9rem;
+  }
+
+  .textPhrase-2 {
+    font-size: 0.9rem;
+  }
+
+  .textPhrase-3 {
+    font-size: 0.9rem;
+  }
+
+  .textPhrase-4 {
+    font-size: 1.2rem;
+  }
+}

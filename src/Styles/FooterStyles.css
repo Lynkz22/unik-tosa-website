@@ -1,0 +1,116 @@
+.footer {
+  padding: 4rem 2rem 4rem 2rem;
+  background-color: #180e7f;
+  color: #fff;
+  margin-top: 7rem;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerSocialLinks i {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.footerSocialLinks i:hover {
+  color: #01959a;
+  transition: 1s ease-in-out;
+}
+
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottomDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom h4 {
+  font-size: 1.3rem;
+  padding: 1rem 0 0.8rem 0;
+}
+
+.footerSocialLinks {
+  display: flex;
+  padding-top: 4rem;
+}
+
+.faArrowCircleLeft {
+  color: red;
+  font-size: 10rem;
+}
+
+.footerLink {
+  position: relative;
+  text-decoration: none;
+}
+
+.footerLinkText {
+  display: block;
+  transition: all 0.3s ease;
+  line-height: 45px;
+  margin-left: 2rem;
+  color: #fff;
+  padding-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.footerLinkText:hover {
+  padding-left: 8px;
+}
+
+#footerArrowIcon {
+  align-self: center;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    padding: 4rem 1rem;
+  }
+
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+
+  .bottom {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .headingTopFooter {
+    font-size: 1.5rem;
+  }
+
+  .paraTopFooter {
+    font-size: 0.9rem;
+  }
+
+  .navbarLogoImage {
+    display: none;
+  }
+
+  .bottom {
+    width: 100%;
+  }
+
+  .footerLink {
+    width: 100%;
+  }
+}
