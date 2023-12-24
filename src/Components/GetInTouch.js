@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/GetInTouch.css";
-import ProjectHomeImageOne from "../Components/Assets/BOU 4.jpg";
+import ProjectHomeImageOne from "../Components/Assets/Bourdillon/BOU1.jpg";
 
 const GetInTouch = () => {
   return (

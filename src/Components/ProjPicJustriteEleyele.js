@@ -3,13 +3,12 @@ import "../Styles/ProjectsPage.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import JustriteEleyele1 from "../Components/Assets/JustriteEleyele/ELE1.webp";
-import JustriteEleyele2 from "../Components/Assets/JustriteEleyele/ELE2.webp";
-import JustriteEleyele3 from "../Components/Assets/JustriteEleyele/ELE3.webp";
-import JustriteEleyele4 from "../Components/Assets/JustriteEleyele/ELE4.webp";
-import JustriteEleyele5 from "../Components/Assets/JustriteEleyele/ELE5.webp";
-import JustriteEleyele6 from "../Components/Assets/JustriteEleyele/ELE6.webp";
-import JustriteEleyele7 from "../Components/Assets/JustriteEleyele/ELE7.webp";
+import JustriteEleyele1 from "../Components/Assets/JustriteEleyele/ELE1.jpg";
+import JustriteEleyele2 from "../Components/Assets/JustriteEleyele/ELE2.jpg";
+import JustriteEleyele3 from "../Components/Assets/JustriteEleyele/ELE3.jpg";
+import JustriteEleyele4 from "../Components/Assets/JustriteEleyele/ELE4.jpg";
+import JustriteEleyele5 from "../Components/Assets/JustriteEleyele/ELE5.jpg";
+import JustriteEleyele6 from "../Components/Assets/JustriteEleyele/ELE6.jpg";
 
 export class ProjPicJustriteEleyele extends Component {
   constructor(props) {
@@ -100,13 +99,6 @@ export class ProjPicJustriteEleyele extends Component {
                   className="projectImages-1"
                   alt="Justrite Eleyele Images"
                   src={JustriteEleyele6}
-                />
-              </div>
-              <div className="projectImages" key={7}>
-                <img
-                  className="projectImages-1"
-                  alt="Justrite Eleyele Images"
-                  src={JustriteEleyele7}
                 />
               </div>
             </Slider>

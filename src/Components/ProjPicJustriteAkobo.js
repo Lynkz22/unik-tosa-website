@@ -3,11 +3,11 @@ import "../Styles/ProjectsPage.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import JustriteAkobo1 from "../Components/Assets/JustriteAkobo/AK1.webp";
-import JustriteAkobo2 from "../Components/Assets/JustriteAkobo/AK2.webp";
-import JustriteAkobo3 from "../Components/Assets/JustriteAkobo/AK3.webp";
-import JustriteAkobo4 from "../Components/Assets/JustriteAkobo/AK4.webp";
-import JustriteAkobo5 from "../Components/Assets/JustriteAkobo/AK5.webp";
+import JustriteAkobo1 from "../Components/Assets/JustriteAkobo/AK1.jpg";
+import JustriteAkobo2 from "../Components/Assets/JustriteAkobo/AK2.jpg";
+import JustriteAkobo3 from "../Components/Assets/JustriteAkobo/AK3.jpg";
+import JustriteAkobo4 from "../Components/Assets/JustriteAkobo/AK4.jpg";
+import JustriteAkobo5 from "../Components/Assets/JustriteAkobo/AK5.jpg";
 
 export class ProjPicJustriteAkobo extends Component {
   constructor(props) {

@@ -6,11 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 import PeriwinkleImage from "../Components/Assets/Periwinkle/Prwk1.jpg";
 import PeriwinkleImage1 from "../Components/Assets/Periwinkle/PRW1.jpg";
 import PeriwinkleImage2 from "../Components/Assets/Periwinkle/PRW2.jpg";
-import PeriwinkleImage3 from "../Components/Assets/Periwinkle/PRW3.webp";
-import PeriwinkleImage4 from "../Components/Assets/Periwinkle/PRW4.webp";
-import PeriwinkleImage5 from "../Components/Assets/Periwinkle/PRW5.webp";
-import PeriwinkleImage6 from "../Components/Assets/Periwinkle/PRW6.webp";
-import PeriwinkleImage7 from "../Components/Assets/Periwinkle/PRW7.webp";
+import PeriwinkleImage3 from "../Components/Assets/Periwinkle/PRW3.jpg";
+import PeriwinkleImage4 from "../Components/Assets/Periwinkle/PRW4.jpg";
+import PeriwinkleImage5 from "../Components/Assets/Periwinkle/PRW5.jpg";
+import PeriwinkleImage6 from "../Components/Assets/Periwinkle/PRW6.jpg";
+import PeriwinkleImage7 from "../Components/Assets/Periwinkle/PRW7.jpg";
 
 export class ProjPicPeriwinkleEstate extends Component {
   constructor(props) {

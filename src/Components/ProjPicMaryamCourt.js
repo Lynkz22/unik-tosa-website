@@ -3,10 +3,10 @@ import "../Styles/ProjectsPage.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import MaryamCourtImage1 from "../Components/Assets/Maryam's-Court/MC1.webp";
-import MaryamCourtImage2 from "../Components/Assets/Maryam's-Court/MC2.webp";
-import MaryamCourtImage3 from "../Components/Assets/Maryam's-Court/MC3.webp";
-import MaryamCourtImage4 from "../Components/Assets/Maryam's-Court/MC4.webp";
+import MaryamCourtImage1 from "../Components/Assets/Maryam-Court/MC1.jpg";
+import MaryamCourtImage2 from "../Components/Assets/Maryam-Court/MC2.jpg";
+import MaryamCourtImage3 from "../Components/Assets/Maryam-Court/MC3.jpg";
+import MaryamCourtImage4 from "../Components/Assets/Maryam-Court/MC4.jpg";
 
 export class ProjPicMaryamCourt extends Component {
   constructor(props) {

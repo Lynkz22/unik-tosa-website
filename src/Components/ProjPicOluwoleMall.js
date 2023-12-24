@@ -3,12 +3,12 @@ import "../Styles/ProjectsPage.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import OluwoleMallImage1 from "../Components/Assets/Oluwole-Mall/OLM1.webp";
-import OluwoleMallImage2 from "../Components/Assets/Oluwole-Mall/OLM2.webp";
-import OluwoleMallImage3 from "../Components/Assets/Oluwole-Mall/OLM3.webp";
-import OluwoleMallImage4 from "../Components/Assets/Oluwole-Mall/OLM4.webp";
-import OluwoleMallImage5 from "../Components/Assets/Oluwole-Mall/OLM5.webp";
-import OluwoleMallImage6 from "../Components/Assets/Oluwole-Mall/OLM6.webp";
+import OluwoleMallImage1 from "../Components/Assets/Oluwole-Mall/OLM1.jpg";
+import OluwoleMallImage2 from "../Components/Assets/Oluwole-Mall/OLM2.jpg";
+import OluwoleMallImage3 from "../Components/Assets/Oluwole-Mall/OLM3.jpg";
+import OluwoleMallImage4 from "../Components/Assets/Oluwole-Mall/OLM4.jpg";
+import OluwoleMallImage5 from "../Components/Assets/Oluwole-Mall/OLM5.jpg";
+import OluwoleMallImage6 from "../Components/Assets/Oluwole-Mall/OLM6.jpg";
 
 export class OluwoleMall extends Component {
   constructor(props) {

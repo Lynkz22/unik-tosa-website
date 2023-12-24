@@ -3,10 +3,10 @@ import "../Styles/ProjectsPage.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BourdillonImage1 from "../Components/Assets/Bourdillon/BOU1.webp";
-import BourdillonImage2 from "../Components/Assets/Bourdillon/BOU2.webp";
-import BourdillonImage3 from "../Components/Assets/Bourdillon/BOU3.webp";
-import BourdillonImage4 from "../Components/Assets/Bourdillon/BOU4.webp";
+import BourdillonImage1 from "../Components/Assets/Bourdillon/BOU1.jpg";
+import BourdillonImage2 from "../Components/Assets/Bourdillon/BOU2.jpg";
+import BourdillonImage3 from "../Components/Assets/Bourdillon/BOU3.jpg";
+import BourdillonImage4 from "../Components/Assets/Bourdillon/BOU4.jpg";
 
 export class ProjPicBourdillon extends Component {
   constructor(props) {

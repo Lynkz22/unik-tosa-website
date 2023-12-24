@@ -14,7 +14,7 @@ class Navbar extends Component {
       <nav className="navbarItems">
         <div>
           {/* <h1 className="navbarLogo">Amnon</h1> */}
-          {/* <img className="navbarLogoImage" alt="Image1" src={Logo} /> */}
+          <img className="navbarLogoImage" alt="Image1" src={Logo} />
         </div>
 
         <div className="menuIcons" onClick={this.handleClick}>

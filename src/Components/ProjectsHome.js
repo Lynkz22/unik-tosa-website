@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/ProjectsHome.css";
-// import ProjectHomeImageOne from "../Components/Assets/BOU 4.jpg";
 import BeachHouse from "../Components/Assets/Beach-House/BH1.jpg";
 import TCNMaryland from "../Components/Assets/TCN-Maryland/TCN1.jpg";
 import Bourdillon from "../Components/Assets/Bourdillon/BOU1.jpg";

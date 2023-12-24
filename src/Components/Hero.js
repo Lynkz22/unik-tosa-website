@@ -1,6 +1,6 @@
 import React from "react";
 // import NavVideo from "../Components/Assets/NavVideo.mp4";
-import heroImage from "../Components/Assets/BOU 4.jpg";
+import heroImage from "../Components/Assets/Bourdillon/BOU1.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 

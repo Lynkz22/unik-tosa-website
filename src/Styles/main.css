@@ -39,7 +39,7 @@
 }
 
 .navbarLogoImage {
-  width: 10rem;
+  width: 7rem;
   height: 3.5rem;
   object-fit: contain;
   cursor: pointer;
@@ -113,13 +113,14 @@
 
 .divHero {
   max-width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
 .heroImage {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
-  position: relative;
 }
 
 .divHeroLinks {
@@ -127,7 +128,7 @@
   bottom: 10%;
   left: 50%;
   transform: translate(-50%);
-  z-index: 9999;
+  /* z-index: 9999; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -170,7 +171,7 @@
 
 @media screen and (max-width: 1000px) {
   .navbarItems {
-    z-index: 99;
+    z-index: 9999;
   }
 
   .navbarItems {
@@ -210,7 +211,7 @@
   .navMenu.active {
     top: 0;
     opacity: 1;
-    z-index: -1;
+    z-index: 1;
     transition: 1s ease-in-out;
   }
 
@@ -241,6 +242,7 @@
 
   .menuIcons {
     display: block;
+    z-index: 9999;
   }
 
   .menuIcons i {
@@ -261,8 +263,8 @@
   }
 
   .navbarLogoImage {
-    width: 6rem;
-    height: 2.5rem;
+    width: 7rem;
+    height: 100%;
     display: block;
   }
 }
@@ -274,4 +276,6 @@
     font-weight: 500;
     padding: 0.2rem 1rem 0.2rem 1rem;
   }
+
+
 }

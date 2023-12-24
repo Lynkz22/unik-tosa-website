@@ -1,8 +1,8 @@
 import React from "react";
 import "../Styles/IntroductionPics.css";
-import introductionPicsOne from "../Components/Assets/MC2.jpg";
-import introductionPicsTwo from "../Components/Assets/BOU 4.jpg";
-import introductionPicsThree from "../Components/Assets/MC5.jpg";
+import introductionPicsOne from "../Components/Assets/Maryam-Court/MC2.jpg";
+import introductionPicsTwo from "../Components/Assets/Bourdillon/BOU1.jpg";
+import introductionPicsThree from "../Components/Assets/Maryam-Court/MC1.jpg";
 
 const IntroductionPics = () => {
   return (
