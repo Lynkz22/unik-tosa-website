@@ -4,7 +4,7 @@ import "../Styles/ProjectsHome.css";
 import BeachHouse from "../Components/Assets/Beach-House/BH1.jpg";
 import TCNMaryland from "../Components/Assets/TCN-Maryland/TCN1.jpg";
 import Bourdillon from "../Components/Assets/Bourdillon/BOU1.jpg";
-import MaryamsCourt from "../Components/Assets/Maryam's-Court/MC1.jpg";
+import MaryamsCourt from "../Components/Assets/Maryams-Court/MC1.jpg";
 import Araz from "../Components/Assets/Araz/ARAZ1.jpg";
 import Periwinkle from "../Components/Assets/Periwinkle/Prwk1.jpg";
 
@@ -19,6 +19,12 @@ const ProjectsHome = () => {
             construction projects, providing quality ensuring that the project
             is completed on time, within budget, and to the required quality
             standards.
+            <br /> <br />
+            UNIK-TOSA has a proven track record of delivering high-quality work,
+            and we are committed to ensuring quality delivery on all projects we
+            are tasked with. We have grown from a small construction firm to a
+            competitive large corporate firm that undertakes big scale
+            projects all encompassing buildings construction. 
           </p>
         </div>
         <div className="divProjectsHome-1">
