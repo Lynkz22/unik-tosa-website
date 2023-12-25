@@ -4,7 +4,7 @@ import "../Styles/ProjectsHome.css";
 import BeachHouse from "../Components/Assets/Beach-House/BH1.jpg";
 import TCNMaryland from "../Components/Assets/TCN-Maryland/TCN1.jpg";
 import Bourdillon from "../Components/Assets/Bourdillon/BOU1.jpg";
-import MaryamsCourt from "../Components/Assets/Maryams-Court/MC1.jpg";
+import MaryamsCourt from "../Components/Assets/Maryam-Court/MC1.jpg";
 import Araz from "../Components/Assets/Araz/ARAZ1.jpg";
 import Periwinkle from "../Components/Assets/Periwinkle/Prwk1.jpg";
 
