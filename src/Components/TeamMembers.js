@@ -1,23 +1,25 @@
 import React from "react";
 import "../Styles/TeamMembers.css";
-import { motion } from "framer-motion";
+import TeamMembersOlabodeSaheed from "./TeamMembersOlabodeSaheed";
+import TeamMemberGeorgeUgwu from "./TeamMemberGeorgeUgwu";
+import TeamMemberFalaseOpemipo from "./TeamMemberFalaseOpemipo";
+import TeamMemberComfortOlabode from "./TeamMemberComfortOlabode";
+import TeamMemberDawoduKayode from "./TeamMemberDawoduKayode";
+import TeamMemberAdedapoAdeyemi from "./TeamMemberAdedapoAdeyemi";
 
 const TeamMembers = () => {
   return (
     <>
       <section className="sectionTeamMembers">
-        <motion.div
-          className="divTeamMembers"
-          initial={{ opacity: 0, y: "5rem" }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2 }}
-          viewport={{ once: true }}
-        >
-          <h1>OUR TEAM MEMBERS</h1>
-        </motion.div>
         <div className="divTeamMembers">
-            
+          <h1 className="divTeamMembersHeading">OUR TEAM MEMBERS</h1>
         </div>
+        <TeamMembersOlabodeSaheed />
+        <TeamMemberGeorgeUgwu />
+        <TeamMemberFalaseOpemipo />
+        <TeamMemberComfortOlabode />
+        <TeamMemberDawoduKayode />
+        <TeamMemberAdedapoAdeyemi />
       </section>
     </>
   );

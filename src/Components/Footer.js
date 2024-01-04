@@ -13,21 +13,6 @@ const Footer = () => {
           <p className="paraTopFooter">Buildings And Projects With Finesse</p> 
         </div>
         <img className="navbarLogoImage" alt="Image1" src={Logo} />
-
-        {/* <div>
-          <a href="/">
-            <i className="fa-brands fa-facebook-square"></i>
-          </a>
-          <a href="/">
-            <i className="fa-brands fa-instagram-square"></i>
-          </a>
-          <a href="/">
-            <i className="fa-brands fa-behance-square"></i>
-          </a>
-          <a href="/">
-            <i className="fa-brands fa-twitter-square"></i>
-          </a>
-        </div> */}
       </div>
 
       <div className="bottom">
@@ -87,7 +72,7 @@ const Footer = () => {
         </div>
         <div className="bottomDiv">
           <h4>Contact</h4>
-          <Link to="/About" className="footerLink">
+          <Link to="/Contact" className="footerLink">
             <span class="material-symbols-outlined" id="footerArrowIcon">
               home
             </span>
@@ -95,13 +80,13 @@ const Footer = () => {
               No. 34 Razak Balogun Street, Surulere, Lagos
             </p>
           </Link>
-          <Link to="/About" className="footerLink">
+          <Link to="/Contact" className="footerLink">
             <span class="material-symbols-outlined" id="footerArrowIcon">
               phone_in_talk
             </span>
             <p className="footerLinkText">+234 802 461 2683</p>
           </Link>
-          <Link to="/About" className="footerLink">
+          <Link to="/Contact" className="footerLink">
             <span class="material-symbols-outlined" id="footerArrowIcon">
               mail
             </span>

@@ -8,6 +8,7 @@ import Phrase from "../Components/Phrase";
 import ServicesAbout from "../Components/ServicesAbout";
 import GetInTouch from "../Components/GetInTouch";
 import Footer from "../Components/Footer";
+import TeamMembers from "../Components/TeamMembers";
 
 const About = () => {
   return (
@@ -19,6 +20,7 @@ const About = () => {
       <Phrase />
       <IntroductionPics />
       <ServicesAbout />
+      <TeamMembers />
       <GetInTouch />
       <Footer />
     </>

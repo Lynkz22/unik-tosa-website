@@ -1,0 +1,52 @@
+.sectionTeamMembers {
+  width: 90%;
+  margin: 10rem auto 0 auto;
+  text-align: start;
+}
+
+.divTeamMembersHeading {
+  font-size: 1.7rem;
+  color: #180e7f;
+  margin-bottom: 1rem;
+}
+
+.teamMembers {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.teamMembers-1 {
+  display: grid;
+}
+
+.teamMembers-1 h1 {
+  font-size: 1.3rem;
+}
+
+.teamMembersName p {
+    font-size: 1.3rem;
+    color: #180e7f;
+    margin-bottom: 1rem;
+}
+
+.divTeamMembersImage {
+  height: 15rem;
+  width: 15rem;
+}
+
+.teamMembersImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teamMembersName {
+    text-align: center;
+}
+
+.teamMembersText {
+  width: 50%;
+  font-size: 1.1rem;
+
+}
