@@ -17,6 +17,6 @@ export const NavbarLinks = [
   {
     title: "Contact",
     url: "/Contact",
-    cName: "navLinks",
+    cName: "navLinksContact",
   },
 ];

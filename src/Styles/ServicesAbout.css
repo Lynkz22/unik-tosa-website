@@ -9,55 +9,34 @@
 }
 
 .divServicesAbout h1 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: #180e7f;
   margin-bottom: 0.5rem;
 }
 
-.divServicesAboutFlex {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3rem;
-}
-
-.divServicesAboutText {
-  width: 90%;
+.divServicesAbout-1 {
   text-align: start;
-  border-right: 2px solid #180e7f;
+  font-size: 0.9;
+  line-height: 35px;
 }
 
-.divServicesAboutText-1 {
-  width: 90%;
-  text-align: start;
-  padding-left: 3rem;
-  border-left: 2px solid #180e7f;
-}
+@media screen and (max-width: 1500px) {
+  .divServicesAbout h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
 
-.divServicesAboutHeading {
-  font-size: 1.3rem;
-}
-
-.divServicesAboutTextContent {
-  font-size: 1.1rem;
-  width: 90%;
+  .divServicesAbout-1 {
+    text-align: start;
+    font-size: 1.2rem;
+    line-height: 35px;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .sectionServicesAbout {
-    width: 97%;
+    width: 85%;
     margin: auto;
-  }
-
-  .divServicesAboutText {
-    width: 98%;
-    border-right: 1px solid #180e7f;
-  }
-
-  .divServicesAboutText-1 {
-    width: 98%;
-    padding-left: 0.5rem;
-    border-left: 1px solid #180e7f;
   }
 
   .divServicesAbout h1 {
@@ -66,12 +45,14 @@
     margin-bottom: 0.5rem;
   }
 
-  .divServicesAboutHeading {
-    font-size: 1rem;
-    padding-bottom: 0.4rem;
+  .divServicesAbout h1 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
   }
 
-  .divServicesAboutTextContent {
-    font-size: 0.9rem;
+  .divServicesAbout-1 {
+    text-align: start;
+    font-size: 0.6rem;
+    line-height: 25px;
   }
 }

@@ -1,8 +1,18 @@
 .footer {
   padding: 4rem 2rem 4rem 2rem;
-  background-color: #180e7f;
+  background-color: #000;
   color: #fff;
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
+}
+
+.headingTopFooter {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  color: #ff2400;
+}
+
+.paraTopFooter {
+  font-size: 0.9rem;
 }
 
 .top {
@@ -20,16 +30,18 @@
 }
 
 .footerSocialLinks i:hover {
-  color: #01959a;
+  color: #ff2400;
   transition: 1s ease-in-out;
 }
 
 .bottom {
+  /* width: 70%; */
   padding-top: 2rem;
   text-align: start;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   flex-wrap: wrap;
+  gap: 5rem;
 }
 
 .bottomDiv {
@@ -38,8 +50,9 @@
 }
 
 .bottom h4 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding: 1rem 0 0.8rem 0;
+  color: #ff2400;
 }
 
 .footerSocialLinks {
@@ -48,7 +61,7 @@
 }
 
 .faArrowCircleLeft {
-  color: red;
+  color: #ff2400;
   font-size: 10rem;
 }
 
@@ -64,7 +77,7 @@
   margin-left: 2rem;
   color: #fff;
   padding-bottom: 0.4rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .footerLinkText:hover {
@@ -76,7 +89,33 @@
   position: absolute;
   top: 8px;
   left: 0;
-  color: #fff;
+  color: #ff2400;
+}
+
+@media screen and (min-width: 1500px) {
+  .footer {
+    padding: 4rem 2rem 4rem 6rem;
+  }
+
+  .headingTopFooter {
+    font-size: 1.5rem;
+  }
+
+  .paraTopFooter {
+    font-size: 1.2rem;
+  }
+
+  .bottom {
+    gap: 10rem;
+  }
+
+  .bottom h4 {
+    font-size: 1.5rem;
+  }
+
+  .footerLinkText {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -91,9 +130,15 @@
   .bottom {
     width: 50%;
   }
+
+  .bottom {
+    width: 100%;
+    padding-top: 0.5rem;
+    gap: 4rem;
+  }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .headingTopFooter {
     font-size: 1.2rem;
   }
@@ -120,5 +165,63 @@
 
   .footerLink {
     width: 100%;
+  }
+} */
+
+@media screen and (max-width: 500px) {
+  .headingTopFooter {
+    font-size: 0.8rem;
+  }
+
+  .bottom h4 {
+    font-size: 0.7rem;
+    padding: 0.4rem 0 0.2rem 0;
+  }
+
+  .footerLinkText {
+    line-height: 25px;
+    margin-left: 1.6rem;
+    font-size: 0.6rem;
+  }
+
+  .paraTopFooter {
+    font-size: 0.6rem;
+  }
+
+  .navbarLogoImage {
+    display: none;
+  }
+
+  .bottomDiv {
+    display: grid;
+    text-align: start;
+    justify-content: start;
+  }
+
+  .bottom {
+    width: 100%;
+    padding-top: 0.5rem;
+    gap: 1rem;
+  }
+
+  .footerLink {
+    width: 100%;
+  }
+
+  #footerArrowIcon {
+    font-size: 1rem;
+    margin-top: 0;
+    top: 4px;
+    left: 0;
+  }
+
+  .footerSocialLinks {
+    display: flex;
+    padding-top: 0.5rem;
+  }
+
+  .footerSocialLinks i {
+    font-size: 1rem;
+    /* margin-left: 1rem; */
   }
 }

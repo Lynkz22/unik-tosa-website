@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Playfair+Display:wght@500&family=Poppins:wght@100;400&display=swap");
 
-.sectionMvpmHome {
-  display: grid;
-  width: 100%;
-  height: 100vh;
-  margin: 10rem auto 10rem auto;
-  background-image: url(../Components/Assets/Maryam-Court/MC1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
+/* 
 .divMvpmHome {
   display: grid;
   align-content: start;
@@ -58,7 +47,7 @@
   font-size: 1.2rem;
   color: #fff;
   letter-spacing: 3px;
-  padding: 0.6rem 2rem 0.6rem 2rem;
+  padding: 0.4rem 1.8rem 0.4rem 1.8rem;
   background-color: #180e7f;
 }
 
@@ -109,9 +98,9 @@
     letter-spacing: 3px;
     padding: 0.5rem 1.8rem 0.5rem 1.8rem;
   }
-}
+} */
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .sectionMvpmHome {
     margin: 5rem auto 5rem auto;
   }
@@ -125,7 +114,7 @@
     letter-spacing: 3px;
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   }
-}
+} */
 
 .sectionMvpm {
   max-width: 85%;
@@ -152,7 +141,7 @@
   height: 100%;
   margin: auto;
   background-color: #f0fbfa;
-  padding: 2rem 0.5rem 1rem 0.5rem;
+  padding: 2rem 1rem 1rem 1rem;
   transform: scale(1.05);
 }
 
@@ -162,7 +151,7 @@
 }
 
 .mvpmHeading {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Poppins", cursive;
   padding-bottom: 1rem;
   letter-spacing: 2px;
@@ -170,7 +159,7 @@
 
 .mvpmText {
   text-align: start;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .mvpmTextList {
@@ -201,12 +190,28 @@
 }
 
 @media screen and (min-width: 1500px) {
-  .divMvpmHome-1 {
-    padding: 0 20rem 0 20rem;
+  .divMvpm {
+    padding: 2rem 3rem 1rem 3rem;
+  }
+  
+  .divMvpm-1 {
+    padding: 2rem 2rem 1rem 2rem;
   }
 
   .sectionMvpm {
-    min-height: 40rem;
+    min-height: 40em;
+  }
+
+  .mvpmHeading {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .mvpmText {
+    text-align: start;
+    font-size: 1.2rem;
+    line-height: 30px;
   }
 }
 

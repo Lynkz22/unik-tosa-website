@@ -1,192 +1,207 @@
 .sectionServicesHome {
-  min-height: 70vh;
-  width: 95%;
+  min-height: 100vh;
+  width: 90%;
   margin: auto;
-  /* margin: 5rem 0 5rem 0; */
-  position: relative;
-}
-
-slider {
-  display: none;
-  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 2fr;
+  gap: 10px;
+  margin-top: 5rem;
+  padding: 7% 2% 7% 2%;
 }
 
 .divServicesHome {
-  height: 100%;
-}
-
-.divServicesHomeSlide {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 87%;
-  margin: auto;
-  height: 70vh;
-}
-
-.imageServicesHome {
-  width: 85%;
-  height: 100%;
-  margin: auto;
-}
-
-.servicesImage1 {
+  background-color: #000;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-}
-
-.divServicesHome-1 {
-  display: flex;
-  gap: 0.5rem;
-  align-items: start;
-  justify-content: start;
-  flex-direction: column;
   margin: auto;
-}
-
-.divServicesHome-1 {
-  width: 80%;
-  margin: 0 auto 0 auto;
   position: relative;
 }
 
-.headingServicesHome {
-  text-align: start;
-  letter-spacing: 4px;
-  color: #180e7f;
+.servicesImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  opacity: 1;
+  box-shadow: 0 0 20px 1px #cfb095;
 }
 
-.paraServicesHome {
-  text-align: start;
-  line-height: 25px;
-  font-size: 1.1rem;
-}
-
-.headingServicesHome-1 {
-  font-size: 1.2rem;
-  text-align: start;
-  letter-spacing: 3px;
-}
-
-.buttonServicesHome {
+.divservicesHomeText {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  right: 0;
-  bottom: 0;
-  text-decoration: none;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.buttonServicesHome p {
-  font-size: 1.2rem;
-  letter-spacing: 3px;
-  padding: 0.7rem 2rem 0.7rem 2rem;
-  background-color: #180e7f;
-  color: #fff;
-}
-
-.buttonServicesHome p:hover {
-  background-color: #fd0203;
-  transition: 1.5s ease-in-out;
-  scale: 1.05;
-}
-
-.divServicesButtons {
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
-  width: 90%;
+  flex-direction: column;
+  opacity: 0;
+}
+
+.divservicesHomeText:hover {
+  opacity: 1;
+}
+
+.divservicesHomeText > * {
+  transform: translateY(50px);
+  transition: transform 2s;
+}
+
+.divservicesHomeText:hover > * {
+  transform: translateY(0px);
+}
+
+.servicesHomeText {
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  letter-spacing: 3px;
+  font-family: "Poppins", serif;
+  text-transform: uppercase;
+}
+
+.divServicesHome-1 {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  display: grid;
+  grid-template-rows: 90% 10%;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.servicesImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.divServLink {
+  height: 100%;
   margin: auto;
 }
 
-.servicesButtonLeft {
-  background-color: transparent;
-  border: none;
+.divServicesLink {
+  text-decoration: none;
+  background-color: #ff2400;
 }
 
-.servicesButtonLeft span {
-  color: #000;
-  background-color: transparent;
-  font-size: 3rem;
+.servicesLink {
+  width: 50%;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff2400;
+  padding: 5px 0 5px 0;
+  font-size: 0.9rem;
+  margin: auto 0 auto 0;
 }
 
-.servicesButtonRight {
-  background-color: transparent;
-  border: none;
+.servicesLink:hover {
+  scale: 1.05;
+  transition: 2s ease-out;
 }
 
-.servicesButtonRight span {
-  color: #000;
-  background-color: transparent;
-  font-size: 3rem;
+.linkArrow {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: auto;
+  vertical-align: middle;
+  margin-bottom: 2px;
 }
 
-@media screen and (max-width: 1000px) {
-  .paraServicesHome {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 1500px) {
   .sectionServicesHome {
-    width: 85%;
+    gap: 15px;
   }
 
-  .divServicesHomeSlide {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    margin: auto;
-    height: 100%;
+  .servicesHomeText {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
   }
 
-  .imageServicesHome {
-    display: none;
-  }
-
-  .divServicesHome-1 {
-    gap: 0.4rem;
-    width: 90%;
-    margin: 0 auto 0 auto;
-    position: unset;
-  }
-
-  .headingServicesHome {
+  .servicesLink {
+    width: 50%;
+    padding: 10px 0 10px 0;
     font-size: 1.2rem;
   }
 
-  .headingServicesHome-1 {
-    font-size: 1rem;
+  .linkArrow {
+    font-size: 2rem;
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sectionServicesHome {
+    min-height: 70vh;
   }
 
-  .buttonServicesHome p {
-    font-size: 0.9rem;
+  .servicesHomeText {
+    font-size: 1.1vw;
     letter-spacing: 3px;
-    padding: 0.5rem 1.3rem 0.5rem 1.3rem;
-    background-color: #180e7f;
-    color: #fff;
   }
 
-  .buttonServicesHome {
-    position: unset;
-  }
-
-  .divServicesButtons {
+  .servicesLink {
     width: 100%;
-    top: 40%;
-
+    padding: 2px 0 2px 0;
+    font-size: 1.9vw;
   }
 
-  .servicesButtonLeft span {
-    font-size: 2.5rem;
+  .linkArrow {
+    font-size: 4vw;
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sectionServicesHome {
+    min-height: 10vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: none;
+    gap: 0.5rem;
+    margin-top: 5rem;
   }
 
-  .servicesButtonRight span {
-    font-size: 2.5rem;
+  .divServicesHome {
+    width: 100%;
+    height: 4rem;
+  }
+
+  .divservicesHomeText {
+    opacity: 1;
+  }
+
+  .divservicesHomeText > * {
+    transform: translateY(0px);
+  }
+
+  .servicesHomeText {
+    font-size: 0.7;
+    letter-spacing: 3px;
+    line-height: 8px;
+  }
+
+  .divServicesHome-1 {
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 90% 10%;
+    gap: 10px;
+  }
+
+  .servicesLink {
+    width: 50%;
+    background-color: #ff2400;
+    padding: 5px 0 5px 0;
+    font-size: 0.6rem;
+    margin: auto 0 auto 0;
+  }
+
+  .linkArrow {
+    display: none;
   }
 }

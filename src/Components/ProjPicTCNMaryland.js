@@ -29,7 +29,7 @@ export class ProjPicTCNMaryland extends Component {
       dots: true,
       infinite: true,
       speed: 1000,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 2,
       disabled: true,
     };
@@ -39,20 +39,7 @@ export class ProjPicTCNMaryland extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>TCN, Maryland</h2>
-            <span>WORK DESCRIPTION:</span> Structural Consultancy
-            <br />
-            <span>PROJECT DESCRIPTION:</span> Re-modelling for The Covenant
-            Nation, Maryland
-            <br />
             <span>PROJECT LOCATION:</span> Maryland, Lagos
-            <br />
-            <span>STAGE:</span> Completed and In-use
-            <br />
-            <span>MODE OF CONSTRUCTION:</span> Reinforced Concrete Cast In-Situ
-            <br />
-            <span>PROJECT YEAR:</span> 2023
-            <br />
-            <span>PROJECT COST:</span> ?
           </div>
           <section className="sectionIndividualProjects">
             <Slider

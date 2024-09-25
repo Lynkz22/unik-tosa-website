@@ -12,29 +12,29 @@ const Mvpm = () => {
               <li>
                 <span className="mvpmSpan">
                   <i class="fa-solid fa-circle"></i>
-                  To provide our clients with exceptional construction services
-                  that meet their needs and exceed their expectations
+                  To deliver top-tier mechanical and electrical construction
+                  services through innovative solutions
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i> To foster a culture of
-                  safety, quality, and innovation that inspires our team to
-                  deliver their best work
+                  <i class="fa-solid fa-circle"></i> To leverage advanced
+                  technology and best practices to meet and exceed client
+                  expectations
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i>To leverage cutting-edge
-                  technology and best practices to deliver cost-effective and
-                  timely construction services
+                  <i class="fa-solid fa-circle"></i>To foster a culture of
+                  excellence and integrity in M&E construction, committed to
+                  sustainable practices and continuous improvement for the
+                  benefit of our clients and communities
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i>To continuously improve our
-                  processes, systems, and services to stay ahead of the curve in
-                  the construction industry
+                  <i class="fa-solid fa-circle"></i>To drive the future of M&E
+                  construction with cutting-edge technology and a dedicated team
                 </span>
               </li>
             </ul>
@@ -48,29 +48,30 @@ const Mvpm = () => {
               <li>
                 <span className="mvpmSpan">
                   <i class="fa-solid fa-circle"></i>
-                  To be the leading provider of innovative and sustainable
-                  construction solutions in the industry
+                  To be the leading name in integrated business, corporate &
+                  financial management and construction services in Nigeria
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i>To build a legacy of
-                  excellence by delivering high-quality projects that exceed our
-                  clients expectations
+                  <i class="fa-solid fa-circle"></i>To consistently add value by
+                  providing quality & personalised solutions using the right
+                  people, processes & technology
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i> To be the go-to
-                  construction company for complex and challenging projects that
-                  require exceptional expertise and attention to detail
+                  <i class="fa-solid fa-circle"></i> We are committed to
+                  providing and continually deploying innovative services to
+                  consistently meet your business needs
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i> To leverage cutting-edge
-                  technology and best practices to deliver cost-effective and
-                  timely construction services
+                  <i class="fa-solid fa-circle"></i> To harness innovative
+                  technology and industry-leading practices to provide
+                  efficient, cost-effective, and timely mechanical and
+                  electrical construction solutions
                 </span>
               </li>
             </ul>
@@ -84,29 +85,24 @@ const Mvpm = () => {
               <li>
                 <span className="mvpmSpan">
                   <i class="fa-solid fa-circle"></i>
-                  Flexibility and adaptation to the needs of the clients and
-                  trending technologies. We set up tailor-made teams for each
-                  contract
+                  We prioritize flexibility and adaptability to meet client
+                  needs and stay ahead of technological trends. For each
+                  contract, we assemble specialized teams tailored to the
+                  project's unique requirements
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i> Group association in joint
-                  ventures with the strongest companies of long-term
-                  co-operation when required by the client or justified by
-                  market demand
+                  <i class="fa-solid fa-circle"></i> We continuously conduct
+                  research to identify and implement cost-effective solutions,
+                  ensuring our projects are both economical and efficient
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i> Constant research for
-                  cost-effective solutions
-                </span>
-              </li>
-              <li>
-                <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i> High level of quality
-                  assurance
+                  <i class="fa-solid fa-circle"></i> We maintain rigorous
+                  quality assurance measures to ensure the highest standards of
+                  workmanship and reliability in all our projects
                 </span>
               </li>
             </ul>
@@ -114,36 +110,37 @@ const Mvpm = () => {
         </div>
 
         <div className="divMvpm-1">
-          <h3 className="mvpmHeading">OUR PRINCIPLES</h3>
+          <h3 className="mvpmHeading">OUR STRATEGY</h3>
           <p className="mvpmText">
             <ul className="mvpmTextList">
               <li>
                 <span className="mvpmSpan">
                   <i class="fa-solid fa-circle"></i>
-                  <p> Reliability and open relationship with the client</p>
+                  <p> We identify our client's needs and develop their brief</p>
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i>Selection of the best-suited
-                  experts and managers for each assignment
+                  <i class="fa-solid fa-circle"></i>We consult associate
+                  specialists when required
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
                   <i class="fa-solid fa-circle"></i>
-                  Respect for the contract
+                  We research each project and current innovative practices
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i> Timely execution of
-                  high-quality work
+                  <i class="fa-solid fa-circle"></i> We communicate each step of
+                  our project
                 </span>
               </li>
               <li>
                 <span className="mvpmSpan">
-                  <i class="fa-solid fa-circle"></i> Integrity
+                  <i class="fa-solid fa-circle"></i> We challenge ourselves to
+                  ensure the best delivery
                 </span>
               </li>
             </ul>

@@ -26,7 +26,7 @@ export class ProjPicMaryamCourt extends Component {
       dots: true,
       infinite: true,
       speed: 1000,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 2,
       disabled: true,
     };
@@ -36,21 +36,7 @@ export class ProjPicMaryamCourt extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>Maryam Court, V.I</h2>
-            <span>WORK DESCRIPTION:</span> Structural Consultancy
-            <br />
-            <span>PROJECT DESCRIPTION:</span> A proposed 12-floor exclusive
-            residential development consisting of 18 apartments on 550 Sqm. on
-            600mm diameter 18m depth pile
-            <br />
             <span>PROJECT LOCATION:</span> Victoria Island, Lagos
-            <br />
-            <span>STAGE:</span> Construction Ongoing
-            <br />
-            <span>MODE OF CONSTRUCTION:</span> Reinforced concrete Cast In-Situ
-            <br />
-            <span>PROJECT YEAR:</span> 2021 - Present
-            <br />
-            <span>PROJECT COST:</span> ₦3.5B
           </div>
           <section className="sectionIndividualProjects">
             <Slider

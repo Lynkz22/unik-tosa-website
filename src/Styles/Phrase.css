@@ -1,5 +1,4 @@
 .sectionPhrase {
-  margin-top: 5rem;
   height: 100vh;
   width: 100%;
   display: grid;
@@ -15,47 +14,62 @@
 
 .divPhrase span {
   font-size: 4rem;
-  color: #fd0203;
+  color: #ff2400;
 }
 
-/* .divPhrase p {
-    font-size: 1.1rem;
-} */
-
 .textPhrase-1 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 4px;
 }
 
 .textPhrase-2 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 3px;
 }
 
 .textPhrase-3 {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   letter-spacing: 2px;
 }
 
 .textPhrase-4 {
-  font-size: 1.3rem;
-  letter-spacing: 3px;
-  color: #180e7f;
+  font-size: 1.1rem;
+  letter-spacing: 5px;
+  color: #ff2400;
+  font-weight: 600;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 1500px) {
+  .textPhrase-1 {
+    font-size: 1.3rem;
+  }
+
+  .textPhrase-2 {
+    font-size: 1.2rem;
+  }
+
+  .textPhrase-3 {
+    font-size: 1.1rem;
+  }
+
+  .textPhrase-4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .sectionPhrase {
     height: 70vh;
-    width: 80vw;
+    width: 85vw;
     margin: auto;
   }
 
   .divPhrase {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   .divPhrase span {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .textPhrase-1 {
@@ -63,14 +77,32 @@
   }
 
   .textPhrase-2 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .textPhrase-3 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   .textPhrase-4 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .textPhrase-1 {
+    font-size: 0.8rem;
+  }
+
+  .textPhrase-2 {
+    font-size: 0.7rem;
+  }
+
+  .textPhrase-3 {
+    font-size: 0.65rem;
+  }
+
+  .textPhrase-4 {
+    font-size: 0.8rem;
   }
 }

@@ -1,6 +1,6 @@
 .sectionProjectsHome {
   max-width: 90%;
-  margin: auto;
+  margin: 0 auto 10rem auto;
 }
 
 .divProjectsHome {
@@ -11,11 +11,13 @@
 
 .headingProjectsHome {
   letter-spacing: 4px;
-  color: #180e7f;
+  color: #000;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
 }
 
 .textProjectsHome {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .divProjectsHome-1 {
@@ -75,12 +77,30 @@
 }
 
 .projectsHomeText-1 {
-  font-size: 1.3em;
+  font-size: 1rem;
   color: #fff;
   text-align: center;
   font-weight: 500;
   width: 100%;
   letter-spacing: 3px;
+}
+
+@media screen and (min-width: 1600px) {
+  .projectsHomeContainer {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .headingProjectsHome {
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+  }
+
+  .textProjectsHome {
+    font-size: 1.2rem;
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -112,8 +132,18 @@
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 500px) {
+  .headingProjectsHome {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+  }
+
+  .textProjectsHome {
+    font-size: 0.6rem;
+  }
+
   .projectsHomeContainer {
-    height: 350px;
+    height: 100px;
   }
 }

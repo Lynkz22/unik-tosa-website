@@ -26,7 +26,7 @@ export class ProjPicBourdillon extends Component {
       dots: true,
       infinite: true,
       speed: 1000,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 2,
       disabled: true,
     };
@@ -36,22 +36,7 @@ export class ProjPicBourdillon extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>Bourdillon, Ikoyi</h2>
-            <span>WORK DESCRIPTION:</span> Structural Consultancy
-            <br />
-            <span>PROJECT DESCRIPTION:</span> A proposed 26-floor luxury
-            residential development consisting of parking spaces on ground, 1st,
-            & 2nd floor, office spaces, and residential apartments sitting on an
-            800mm diameter 50m depth pile on 670 Sqm.
-            <br />
             <span>PROJECT LOCATION:</span> Ikoyi, Lagos
-            <br />
-            <span>STAGE:</span> Pre-Construction stage
-            <br />
-            <span>MODE OF CONSTRUCTION:</span> Reinforced Concrete Cast In-Situ
-            <br />
-            <span>PROJECT YEAR:</span> 2021 - Present
-            <br />
-            <span>PROJECT COST:</span> $1.5B
           </div>
           <section className="sectionIndividualProjects">
             <Slider

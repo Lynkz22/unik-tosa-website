@@ -34,7 +34,7 @@ const Phrase = () => {
             <br />
             <p className="textPhrase-3">Anything can be built</p>
             <br />
-            <p className="textPhrase-4">UNIK-TOSA</p>
+            <p className="textPhrase-4">K-GREAT ENGINEERING</p>
           </motion.div>
 
           <motion.span

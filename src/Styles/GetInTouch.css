@@ -1,58 +1,45 @@
 .sectionGetInTouch {
-  width: 80%;
-  min-height: 100%;
-  margin: 8rem auto;
+  width: 100%;
+  height: 6rem;
+  margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1.5em;
+  background-color: #ff2400;
 }
 
 .divGetInTouch {
+  width: 90%;
   display: flex;
-  flex-direction: column;
-  row-gap: 1.5em;
+  justify-content: space-evenly;
   max-height: 100%;
+  margin: auto;
 }
 
-.divGITHeading-1 {
-  font-size: 1.7rem;
-  text-align: start;
-  /* margin: 0 0 1rem 0; */
-  font-family: "Poppins", cursive;
-  letter-spacing: 3px;
-  color: #180e7f;
-}
-
-/* .divGITHeading-1::after {
-  content: "";
-  width: 10%;
-  height: 9px;
-  background: #180e7f;
-  transition: 0.5s;
+.divGitPhrase {
   display: flex;
   justify-content: center;
-  align-content: center;
-} */
-
-.gitContent {
-  /* font-family: "Poppins", sans-serif; */
-  font-size: 1.1em;
-  font-size: 1.1rem;
-  text-align: start;
-  line-height: 25px;
 }
 
-.divGITContactButton {
-  display: flex;
-  cursor: pointer;
+.gitPhrase {
+  font-size: 1.1rem;
+  color: #fff;
+  margin: auto;
+}
+
+.divGITContactButton-1 {
+  border-radius: 15px;
+  border: none;
 }
 
 .gitContactButton-1 {
-  font-size: 1.2rem;
-  color: #fff;
-  letter-spacing: 3px;
-  padding: 0.6rem 2rem 0.6rem 2rem;
-  background-color: #180e7f;
+  font-size: 1.1rem;
+  color: #ff2400;
+  letter-spacing: 2px;
+  padding: 0.3rem 1.1rem 0.3rem 1.1rem;
+  background-color: #fff;
+  border-radius: 15px;
+  font-family: "Poppins", cursive;
+  /* text-transform: uppercase; */
+  font-weight: 600;
 }
 
 .gitContactButton-1:hover {
@@ -61,90 +48,47 @@
   scale: 1.05;
 }
 
-.sectionContactImage {
-  /* width: 90%;
-  max-height: 100%;
-  margin: auto; */
-  width: 85%;
-  height: 90%;
-  margin: auto;
+@media only screen and (min-width: 1500px) {
+  .gitPhrase {
+    font-size: 1.3rem;
+  }
+  .gitContactButton-1 {
+    font-size: 1.3rem;
+    padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+    border-radius: 20px;
+  }
 }
 
-.image2 {
-  box-shadow: 0 0 10px 1px #180e7f;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  object-fit: cover;
-}
-
-@media only screen and (min-width: 1600px) {
+@media only screen and (max-width: 1000px) {
   .sectionGetInTouch {
-    max-height: 60vh;
+    width: 100%;
   }
 
-  .image2 {
-    position: center;
-    width: 80%;
-    max-height: 95%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .sectionGetInTouch {
-    display: block;
-    width: 88%;
-  }
-
-  .divGetInTouch {
-    row-gap: 0.5em;
-  }
-
-  .sectionContactImage {
-    display: none;
-  }
-
-  .divGITHeading-1 {
-    font-size: 1.1rem;
-  }
-
-  .gitContent {
-    font-size: 0.9rem;
+  .gitPhrase {
+    font-size: 0.7rem;
   }
 
   .gitContactButton-1 {
-    font-size: 0.9rem;
-    padding: 0.4rem 1.3rem 0.4rem 1.3rem;
+    font-size: 0.7rem;
+    padding: 0.2em 1.15rem 0.2rem 1.15rem;
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .divContactButton-1 {
-    width: 8em;
-    text-align: center;
-    padding: 5px;
-    font-size: 1em;
+@media only screen and (max-width: 600px) {
+  .sectionGetInTouch {
+    width: 100%;
   }
 
-  .divContactText {
-    row-gap: 1.5em;
+  .divGetInTouch {
+    display: grid;
   }
 
-  .divContactTextContent-1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 1em;
-    line-height: 25px;
-    font-weight: 200;
+  .gitPhrase {
+    font-size: 0.6rem;
   }
 
-  .aboutUsHeading-GIT {
-    font-size: 1.7em;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .divContactTextContent-1 {
-    font-size: 1.3em;
-    line-height: 35px;
+  .gitContactButton-1 {
+    font-size: 0.6rem;
+    padding: 0.2em 1rem 0.2rem 1rem;
   }
 }

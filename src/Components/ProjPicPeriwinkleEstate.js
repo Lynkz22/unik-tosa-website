@@ -30,7 +30,7 @@ export class ProjPicPeriwinkleEstate extends Component {
       dots: true,
       infinite: true,
       speed: 1000,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 2,
       disabled: true,
     };
@@ -40,22 +40,7 @@ export class ProjPicPeriwinkleEstate extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>Periwinkle, Ikate</h2>
-            <span>WORK DESCRIPTION:</span> Structural Consultancy
-            <br />
-            <span>PROJECT DESCRIPTION:</span> An exclusive 6-floor residential
-            development consisting of 12 apartments on 1,118 Sqm. on pile
-            foundation
-            <br />
             <span>PROJECT LOCATION:</span> Periwinkle Estate, Ikate, Lagos
-            <br />
-            <span>STAGE:</span> Construction Ongoing
-            <br />
-            <span>MODE OF CONSTRUCTION:</span> Reinforced concrete Cast In-Situ
-            with ribbed floor
-            <br />
-            <span>PROJECT YEAR:</span> 2022 - Present
-            <br />
-            <span>PROJECT COST:</span> ₦1.5B
           </div>
           <section className="sectionIndividualProjects">
             <Slider

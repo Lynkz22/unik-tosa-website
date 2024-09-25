@@ -8,7 +8,7 @@ const ContactMain = () => {
       <section className="sectionContactForm">
         <div className="divContactForm">
           <form
-            action="https://formsubmit.co/sjolabode@gmail.com"
+            action="https://formsubmit.co/kgreatengineering1.com"
             method="POST"
           >
             <input type="hidden" name="_subject" value="New Email!" />

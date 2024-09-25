@@ -5,7 +5,7 @@
 }
 
 .divTeamMembersHeading {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: #180e7f;
   margin-bottom: 1rem;
 }
@@ -22,18 +22,19 @@
 }
 
 .teamMembers-1 h1 {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .teamMembersName p {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   color: #180e7f;
   margin-bottom: 1rem;
 }
 
 .divTeamMembersImage {
-  height: 15rem;
-  width: 15rem;
+  height: 7rem;
+  width: 7rem;
+  margin: auto;
 }
 
 .teamMembersImage {
@@ -49,7 +50,7 @@
 
 .teamMembersText {
   width: 50%;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -58,7 +59,7 @@
   }
 
   .divTeamMembersHeading {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: #180e7f;
     margin-bottom: 0.5rem;
   }
@@ -76,11 +77,11 @@
   }
 
   .teamMembers-1 h1 {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 
   .teamMembersName p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: #180e7f;
     margin-bottom: 0;
   }
@@ -99,6 +100,6 @@
 
   .teamMembersText {
     width: 90%;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
 }

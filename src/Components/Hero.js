@@ -1,17 +1,53 @@
 import React from "react";
-// import NavVideo from "../Components/Assets/NavVideo.mp4";
-import heroImage from "../Components/Assets/Bourdillon/BOU1.jpg";
+import "../Styles/main.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { TiArrowRight } from "react-icons/ti";
 
 const Hero = (props) => {
   return (
     <>
       <div className="divHero">
-        {/* <div className={props.cName}> */}
+        <div className="landingPageText">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 5 }}
+          >
+            <h1 className="openingPhrase">
+              Delivering Real
+              <br />
+              Value Beyond <br />
+              Expectations.
+            </h1>
+          </motion.div> 
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 5 }}
+          >
+            <p className="openingPhraseItems"> 
+              Mechanical Engineering | Electrical Engineering
+            </p>
+            <p></p>
+          </motion.div>
+          <div>
+            <Link to="/Projects">
+              <motion.button
+                className="GITButton"
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: "0", opacity: 1 }}
+                transition={{ delay: 0.2, duration: 4 }}
+              >
+                <p className="textGITButton">
+                  Get In Touch <TiArrowRight className="linkArrow" />
+                </p>
+              </motion.button>
+            </Link>
+          </div>
+        </div>
 
-        <img className="heroImage" alt="HeroImg" src={heroImage} />
-        <div className="divHeroLinks">
+        {/* <div className="divHeroLinks">
           <div className="divHeroLinks-1">
             <Link to="/Projects">
               <motion.button
@@ -21,7 +57,6 @@ const Hero = (props) => {
                 transition={{ delay: 0.2, duration: 4 }}
                 whileHover={{
                   scale: 1.01,
-                  // textShadow: "0px 0px 8px rgb(255, 255, 255)",
                   boxShadow: "0px 0px 4px rgb(255, 255, 255)",
                   backgroundColor: "#180e7f",
                 }}
@@ -48,7 +83,7 @@ const Hero = (props) => {
               </motion.button>
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

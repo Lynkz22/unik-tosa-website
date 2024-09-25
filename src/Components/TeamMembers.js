@@ -1,11 +1,7 @@
 import React from "react";
 import "../Styles/TeamMembers.css";
-import TeamMembersOlabodeSaheed from "./TeamMembersOlabodeSaheed";
-import TeamMemberGeorgeUgwu from "./TeamMemberGeorgeUgwu";
-import TeamMemberFalaseOpemipo from "./TeamMemberFalaseOpemipo";
-import TeamMemberComfortOlabode from "./TeamMemberComfortOlabode";
-import TeamMemberDawoduKayode from "./TeamMemberDawoduKayode";
-import TeamMemberAdedapoAdeyemi from "./TeamMemberAdedapoAdeyemi";
+import TeamMembersOkunola from "./TeamMembersOkunola";
+import TeamMembersKoya from "./TeamMembersKoya";
 
 const TeamMembers = () => {
   return (
@@ -14,12 +10,8 @@ const TeamMembers = () => {
         <div className="divTeamMembers">
           <h1 className="divTeamMembersHeading">OUR TEAM MEMBERS</h1>
         </div>
-        <TeamMembersOlabodeSaheed />
-        <TeamMemberGeorgeUgwu />
-        <TeamMemberFalaseOpemipo />
-        <TeamMemberComfortOlabode />
-        <TeamMemberDawoduKayode />
-        <TeamMemberAdedapoAdeyemi />
+        <TeamMembersOkunola />
+        <TeamMembersKoya />
       </section>
     </>
   );

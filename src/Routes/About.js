@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import Introduction from "../Components/Introduction";
-import IntroductionPics from "../Components/IntroductionPics";
 import Mvpm from "../Components/Mvpm";
 import Phrase from "../Components/Phrase";
 import ServicesAbout from "../Components/ServicesAbout";
@@ -18,7 +17,6 @@ const About = () => {
       <Introduction />
       <Mvpm />
       <Phrase />
-      <IntroductionPics />
       <ServicesAbout />
       <TeamMembers />
       <GetInTouch />

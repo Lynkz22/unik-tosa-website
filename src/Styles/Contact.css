@@ -1,6 +1,6 @@
 .sectionContactForm {
   width: 90%;
-  margin: 7rem auto 0 auto;
+  margin: 7rem auto 7rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 
 .divContactFormHeading {
   font-weight: 500;
-  font-size: 2em;
+  font-size: 1.2em;
   color: #fff;
 }
 
@@ -30,7 +30,7 @@
 .divContactForm .inputBox textarea {
   width: 100%;
   padding: 5px o;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   margin: 15px 0;
   border: none;
   border-bottom: 1px solid #ffffff;
@@ -89,7 +89,7 @@
 
 .sendit:hover {
   border: 1px solid #fff;
-  background: red;
+  background: ff2400;
   transition: 1s;
 }
 
@@ -128,7 +128,6 @@ textarea {
   .divContactFormHeading {
     font-size: 1.3em;
   }
-
 }
 
 @media only screen and (max-width: 900px) {
@@ -171,14 +170,9 @@ textarea {
 }
 
 @media only screen and (max-width: 900px) {
-  /* .divContactFormHeading {
-    font-weight: 500;
-    font-size: 1.7em;
-  } */
-
   .divContactForm .inputBox input,
   .divContactForm .inputBox textarea {
-    font-size: 14px;
+    font-size: 0.6rem;
   }
 
   .sendit {
@@ -187,5 +181,9 @@ textarea {
 
   .sendit-1 {
     font-size: 1.2em;
+  }
+
+  .divContactForm {
+    min-height: 35vh;
   }
 }

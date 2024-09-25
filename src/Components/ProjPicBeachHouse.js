@@ -28,7 +28,7 @@ export class ProjPicBeachHouse extends Component {
       dots: true,
       infinite: true,
       speed: 1000,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 2,
       disabled: true,
     };
@@ -38,20 +38,7 @@ export class ProjPicBeachHouse extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>Beach House</h2>
-            <span>WORK DESCRIPTION:</span> Project Management
-            <br />
-            <span>PROJECT DESCRIPTION:</span> A smart commercial development
-            (Beach House) on 700 Sqm on pad foundation
-            <br />
-            <span>PROJECT LOCATION:</span> Ibeshe, Lagos
-            <br />
-            <span>STAGE:</span> Completed and In-use
-            <br />
-            <span>MODE OF CONSTRUCTION:</span> Reinforced Concrete Cast In-Situ
-            <br />
-            <span>PROJECT YEAR:</span> ?
-            <br />
-            <span>PROJECT COST:</span> ?
+            <span>LOCATION:</span> Ibeshe, Lagos
           </div>
           <section className="sectionIndividualProjects">
             <Slider
