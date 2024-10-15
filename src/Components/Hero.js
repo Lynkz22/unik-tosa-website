@@ -1,6 +1,7 @@
 import React from "react";
 // import NavVideo from "../Components/Assets/NavVideo.mp4";
-import heroImage from "../Components/Assets/Bourdillon/BOU1.jpg";
+// import heroImage from "../Components/Assets/Bourdillon/BOU1.jpg";
+import heroVideo from "../Components/Assets/NavVideo.mp4";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -10,7 +11,10 @@ const Hero = (props) => {
       <div className="divHero">
         {/* <div className={props.cName}> */}
 
-        <img className="heroImage" alt="HeroImg" src={heroImage} />
+        {/* <img className="heroImage" alt="HeroImg" src={heroImage} /> */}
+        <video className="heroImage" autoPlay="true" loop="true" muted="true">
+          <source src={heroVideo} />
+        </video>
         <div className="divHeroLinks">
           <div className="divHeroLinks-1">
             <Link to="/Projects">

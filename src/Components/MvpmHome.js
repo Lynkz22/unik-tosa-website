@@ -51,7 +51,7 @@ const MvpmHome = () => {
             initial={{ opacity: 0 }}
             // animate={{ opacity: inView ? 1 : 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 2, delay: 1.25 }}
+            transition={{ duration: 2, delay: 1.1 }}
             // exit={{ opacity: 1 }}
             viewport={{ once: true }}
           >
@@ -64,7 +64,7 @@ const MvpmHome = () => {
           className="divMvpmHome"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 2, delay: 1.3 }}
+          transition={{ duration: 2, delay: 1.2 }}
           // exit={{ opacity: 1 }}
           viewport={{ once: true }}
         >
@@ -82,7 +82,7 @@ const MvpmHome = () => {
               className="buttonMvpmHome"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 2.5, delay: 1.5 }}
+              transition={{ duration: 2, delay: 1.3 }}
               viewport={{ once: true }}
             >
               <p>ABOUT US</p>
